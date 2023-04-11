@@ -1,9 +1,0 @@
-# meta:{"policy": "billing", "approle": false, "ldap": {"group": "billing", "policies": ["default", "billing"]}}
-
-path "concourse/billing/*" {
-  capabilities = ["create", "read", "update", "delete", "list"]
-}
-
-path "secret/billing/*" {
-  capabilities = ["create", "read", "update", "delete", "list"]
-}
