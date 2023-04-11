@@ -1,8 +1,0 @@
-optConfig:
-  optIn: true
-enforceDefault: true
-requireApproval: true
-approvalCount: 1
-dismissStale: false
-blockForce: true
-action: issue
